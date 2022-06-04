@@ -1,0 +1,282 @@
+a{
+  text-decoration: none;
+}
+
+body{
+  min-width:500px
+}
+
+.header{
+}
+
+.TOP_logo{
+  float:left;
+}
+
+.TOP_logo_img{
+  width:185px;
+  height:20px;
+}
+
+
+.site_navi_humburger{
+  display:none;
+}
+
+.site_navi{
+  text-align:center;
+  list-style:none;
+  float:right;
+  margin-top:0px;
+}
+
+@media screen and (max-width:1080px){
+  .site_navi_humburger{
+    font-size:24px;
+    float:right;
+    display:block;
+  }
+  .site_navi{
+    display:none;
+  }
+}
+
+.site_navi_li{
+  font-size:14px;
+  float:left;
+  width:100px;
+  font-family: sans-serif;
+  font-weight:bold;
+}
+
+.site_navi_li_link{
+  color:#000000;
+}
+
+.site_navi_li_ja{
+  font-size:10px;
+  margin:0px;
+  font-family: YuGothic;
+}
+
+#site_navi_contact{
+  background-color:#F79214;
+  width: 180px;
+  height: 30px;
+  border-radius:38px;
+  font-size:12px;
+  line-height: 30px; 
+}
+
+#site_navi_contact_link{
+  color:#FFFFFF;
+}
+
+.bg-img{
+  background-image:url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width:767px){
+  .bg-img{
+    background-image:none;
+  }
+}
+
+.top_img{
+  display:none;
+}
+@media screen and (max-width:767px){
+  .top_img{
+    display:none;
+    margin:0% 10px;
+    width:100%;
+    position:relative;
+  }
+}
+.top_container{
+  width:80%;
+  margin:0% 10% 25px;
+}
+@media screen and (max-width:767px){
+  .top_container{
+    
+    background-image:url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin:0% 5% 10%;
+    width:100%;
+    /*position:absolute;*/
+    padding-top: 60%;
+    top:0px;
+  }
+}
+
+.five-month{
+  width:500px;
+  font-size:37px;
+  text-align:center;
+  margin-right:50%;
+}
+@media screen and (max-width:764px){
+  .five-month{
+    font-size:26px;
+    margin:0 auto;
+  }
+}
+
+.maru_container{
+  width:500px;
+  margin-bottom:10px;
+}
+@media screen and (max-width:764px){
+  .maru_container{
+    margin:0 auto;
+    width:100%
+    min-width:500px;
+  }
+  .maru1{
+    width:20%;
+  }
+  .maru2{
+    width:30%;
+  }
+  .maru3{
+    width:20%;
+  }
+}
+.maru1{
+  margin-right:8px;
+  vertical-align: middle;
+}
+.maru2{
+  width:40%;
+  margin-right:8px;
+  vertical-align: middle;
+}
+.maru3{
+  vertical-align: middle;
+}
+
+.counseling{
+  background-color:#F79214;
+  border-radius:38px;
+  font-size:16px;
+  padding:10px 30px;
+  margin:0 15px 0 0;
+  color:#FFFFFF;
+}
+@media screen and (max-width:764px){
+  .counseling{
+    width:220px;
+    margin:0 auto;
+    display:block;
+    text-align: center;
+  }
+}
+
+.shiryo{
+  border-radius:38px;
+  font-size:16px;
+  border:1px solid;
+  padding:10px 30px;
+  color:#000000;
+}
+@media screen and (max-width:764px){
+  .shiryo{
+    display:none;
+  }
+}
+
+.chushaku{
+  margin:15px auto 0px;
+  color:#A2A2A4;
+  font-size:8px;
+  width:80%;
+}
+
+.WisPC_BG{
+  width:100%;
+  background-color:#F79214;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+.WisPC_box{
+  max-width:1124px;
+  width:80%;
+  margin:0% auto;
+  justify-content:space-between;
+  display:flex;
+}
+@media screen and (max-width:1024px){
+  .WisPC_box{
+    width:100%;
+    display:block;
+  }
+}
+
+.video{
+  width:520px;
+  
+}
+@media screen and (max-width:1024px){
+  .video{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+  }
+}
+@media screen and (max-width:764px){
+  .video{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+  }
+}
+
+.WisPC_container{
+  width:480px;
+  
+}
+@media screen and (max-width:1024px){
+  .WisPC_container{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+  }
+}
+@media screen and (max-width:764px){
+  .WisPC_container{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+  }
+}
+
+.WisPC_title{
+  font-size:40px;
+  font-family:sans-serif;
+  color:#FFFFFF;
+  font-weight: bold;
+}
+
+.toha{
+  font-weight: normal;
+}
+
+.WisPC_text{
+  margin:10px 0 16px;
+  width:100%;
+}
+
+.curriculum{
+  vertical-align: middle;
+}
+
+.clear{
+  clear:both;
+}
