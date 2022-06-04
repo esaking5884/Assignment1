@@ -113,7 +113,7 @@ body{
     
     margin:0 0 10%;
     width:100%;
-    padding-top: 60%;
+    padding-top: 0%;
     
   }
 }
@@ -124,10 +124,11 @@ body{
   text-align:center;
   margin-right:50%;
 }
-@media screen and (max-width:764px){
+@media screen and (max-width:767px){
   .five-month{
     font-size:26px;
     margin:0 auto;
+    padding-top: 350px;
   }
 }
 
@@ -136,13 +137,13 @@ body{
   margin-bottom:10px;
 
 }
-@media screen and (max-width:764px){
+@media screen and (max-width:767px){
   .maru_container{
     margin:0 auto;
     width:100%;
     min-width:500px;
-    padding-right:10px;
-    padding-left:10px;
+    display:flex;
+    justify-content:center;
   }
   .maru1{
     width:20%;
@@ -178,9 +179,8 @@ body{
 .counseling:hover{
   background-color:#FC9719;
 }
-@media screen and (max-width:764px){
+@media screen and (max-width:767px){
   .counseling{
-    width:220px;
     margin:0 auto;
     display:block;
     text-align: center;
@@ -194,7 +194,7 @@ body{
   padding:10px 30px;
   color:#000000;
 }
-@media screen and (max-width:764px){
+@media screen and (max-width:767px){
   .shiryo{
     display:none;
   }
@@ -205,6 +205,12 @@ body{
   color:#A2A2A4;
   font-size:8px;
   width:80%;
+}
+
+@media screen and (max-width:767px){
+  .chushaku{
+    width:auto;
+  }
 }
 
 .WisPC_BG{
@@ -239,7 +245,7 @@ body{
     margin-right:15%;
   }
 }
-@media screen and (max-width:764px){
+@media screen and (max-width:767px){
   .video{
     width:90%;
     margin-left:5%;
@@ -258,7 +264,7 @@ body{
     margin-right:15%;
   }
 }
-@media screen and (max-width:764px){
+@media screen and (max-width:767px){
   .WisPC_container{
     width:90%;
     margin-left:5%;
